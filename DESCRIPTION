@@ -3,15 +3,25 @@ Type: Package
 Title: 198R
 Version: 0.1.0
 Author: John Hughes
-Maintainer: Bueller... Bueller... Ferris?  Anyone?! <yourself@somewhere.net>
-Description: R with its collar flipped, or the movie Drive if it was all about R programming, writing R code on a beach in Miami as the sun sets, R wearing sunglasses at night, driving down Mulholland Dr. at night thinking about R code, R asking you to take it home tonight because it doesn't want to let you go until you see the light, Countach > Testarrosa, but Delorian > all except R
+Maintainer: Bueller... Bueller... Ferris...  Anyone?! <sonny@crockett.net>
+Description: R with its collar flipped, or the movie Drive if it was all about R programming, 
+  writing R code on a beach in Miami as the sun sets, R wearing sunglasses at night, 
+  driving down Mulholland Dr. at night thinking about R code, 
+  R asking you to take it home tonight because it doesn't want to let you go until you see the light, 
+  Countach > Testarrosa, but Delorean > all except R, R if Automan had lasted longer than 1 season, 
+  R playing a cello at the end of a dock on a lake before taking a ride in a badass helicopter, 
+  R with its hair all done up with Aquanet.
 License: Whatever makes the most money, because greed is good.
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
-Depends: R (>= 3.2)
+RoxygenNote: 6.0.1
+Depends: R (>= 3.3)
+Imports:
+    scales,
+    colourlovers
 Suggests: knitr,
     rmarkdown,
     png,
-    ggplot2
+    ggplot2,
+    testthat
 VignetteBuilder: knitr

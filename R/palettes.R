@@ -9,29 +9,36 @@
 #'
 #' @seealso \code{\link[grDevices]{colors}}
 #'
-#' @return A character vector of hex values for colors.
+#' @return A character vector of hex values for colors.  By default it will show the entire palette, otherwise the first 'n' or, it will repeat the palette to reach 'n' length.
+#'
+#' @importFrom scales col2hcl
 #'
 #' @examples
-#' library(NineteenEightyR)
-#' ggplot2::qplot(x=seq_along(sonny()), fill=sonny(), geom='tile', y='')
+#' library(NineteenEightyR); library(ggplot2)
+#' qplot(x=seq_along(sonny()), y='') + geom_tile(fill=sonny())
+#' qplot(x=seq_along(malibu()), y='') + geom_tile(fill=malibu())
+#' qplot(x=seq_along(seventies_aint_done_yet()), y='') + geom_tile(fill=seventies_aint_done_yet())
+#' qplot(x=seq_along(youngturqs()), y='') + geom_tile(fill=youngturqs())
+#' qplot(x=seq_along(cobra()), y='') + geom_tile(fill=cobra())
+
 
 
 #' @rdname palettes
 #' @export
-sonny <- function(n=8) {
+sonny <- function(n=5) {
   # from http://www.colourlovers.com/palette/589234/crocketts_closet
-  pal = c('#4C9385','#F2D1B3','#F2E77E','#DA7698','#E3A7C0','#4C9385','#F2D1B3','#F2E77E')
+  pal = colourlovers::swatch(colourlovers::clpalette(589234))[[1]]
   if (n > length(pal)) warning('n greater than number of colors.')
-  rep(pal, length.out=10)
+  rep(pal, length.out=n)
 }
 
 #' @rdname palettes
 #' @export
-malibu <- function(n=8) {
+malibu <- function(n=5) {
   # from http://www.colourlovers.com/palette/140074/Malibu_circa_1984
-  pal = c('#FF4E86','#FF9E44','#FDFD31','#85FD4E','#4ED5FF','#FF4E86','#FF9E44','#FDFD31')
+  pal = colourlovers::swatch(colourlovers::clpalette(140074))[[1]]
   if (n > length(pal)) warning('n greater than number of colors.')
-  rep(pal, length.out=10)
+  rep(pal, length.out=n)
 }
 
 #' @rdname palettes
@@ -39,7 +46,7 @@ malibu <- function(n=8) {
 hotpink <- function(n=5) {
   pal = grep('hotpink', grDevices::colors(), value=T)
   if (n > length(pal)) warning('n greater than number of colors.')
-  rep(base::as.hexmode(pal), length.out=n)
+  rep(scales::col2hcl(pal), length.out=n)
 }
 
 #' @rdname palettes
@@ -47,5 +54,71 @@ hotpink <- function(n=5) {
 youngturqs <- function(n=12) {
   pal = grep('turq', grDevices::colors(), value=T)
   if (n > length(pal)) warning('n greater than number of colors.')
-  rep(base::as.hexmode(pal), length.out=n)
+  rep(scales::col2hcl(pal), length.out=n)
 }
+
+#' @rdname palettes
+#' @export
+sunset1 <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(694737))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+sunset2 <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(1032956))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+sunset3 <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(3341748))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+miami1 <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(92095))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+miami2 <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(932683))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+seventies_aint_done_yet <- function(n=5) {
+  pal = colourlovers::swatch(colourlovers::clpalette(699393))[[1]]
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+#' @rdname palettes
+#' @export
+cobra <- function(n=6) {
+  pal = c('#ef342c', '#e85569', '#111013', '#cb302c', '#5c2c2d', '#3E509A')
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
+
+#' @rdname palettes
+#' @export
+electronic_night <- function(n=5) {
+  pal = c('#cb54d6', '#3e45c4', '#21191a', '#362f78', '#57b4ae')
+  if (n > length(pal)) warning('n greater than number of colors.')
+  rep(scales::col2hcl(pal), length.out=n)
+}
+
