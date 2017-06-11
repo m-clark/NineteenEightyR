@@ -13,12 +13,12 @@ A sampling of the palettes.
 
 <img src="img/198R_1.png" style="display:block; margin: 0 auto;">
 <img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=200px>
-<img src="img/sonny.svg" style="display:block; margin: 0 auto;">
-<img src="img/malibu.svg" style="display:block; margin: 0 auto;">
-<img src="img/miami1.svg" style="display:block; margin: 0 auto;">
-<img src="img/sunset2.svg" style="display:block; margin: 0 auto;">
-<img src="img/seventies_aint_done_yet.svg" style="display:block; margin: 0 auto;">
+<img src="img/sonny.png" style="display:block; margin: 0 auto;">
+<img src="img/malibu.png" style="display:block; margin: 0 auto;">
+<img src="img/miami1.png" style="display:block; margin: 0 auto;">
+<img src="img/sunset2.png" style="display:block; margin: 0 auto;">
+<img src="img/seventies_aint_done_yet.png" style="display:block; margin: 0 auto;">
 <img src="img/cobra.png" style="display:block; margin: 0 auto;">
-<img src="img/electronic_night.svg" style="display:block; margin: 0 auto;">
+<img src="img/electronic_night.png" style="display:block; margin: 0 auto;">
 
 
