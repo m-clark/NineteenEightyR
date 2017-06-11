@@ -1,21 +1,24 @@
-```{r}
-library(NineteenEightyR); library(ggplot2)
-qplot(x=seq_along(sonny()), y='') + geom_tile(fill=sonny())
-qplot(x=seq_along(malibu()), y='') + geom_tile(fill=malibu())
-qplot(x=seq_along(seventies_aint_done_yet()), y='') + geom_tile(fill=seventies_aint_done_yet())
-qplot(x=seq_along(youngturqs()), y='') + geom_tile(fill=youngturqs())
-qplot(x=seq_along(cobra()), y='') + geom_tile(fill=cobra())
-qplot(x=seq_along(electronic_night()), y='') + geom_tile(fill=electronic_night())
-```
 
+R with its collar flipped, or the movie Drive if it was all about R programming, 
+  writing R code on a beach in Miami as the sun sets, R wearing sunglasses at night, 
+  driving down Mulholland Dr. at night thinking about R code, 
+  R asking you to take it home tonight because it doesn't want to let you go until you see the light, 
+  Countach > Testarrosa, but Delorean > all except R, R if Automan had lasted longer than 1 season, 
+  R playing a cello at the end of a dock on a lake before taking a ride in a badass helicopter, 
+  R with its hair all done up with Aquanet.
+
+
+
+A sampling of the palettes.
 
 <img src="img/198R_1.png" style="display:block; margin: 0 auto;">
-<img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=50%>
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
-<img src="" style="display:block; margin: 0 auto;">
+<img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=10%>
+<img src="img/sonny.svg" style="display:block; margin: 0 auto;">
+<img src="img/malibu.svg" style="display:block; margin: 0 auto;">
+<img src="img/miami1.svg" style="display:block; margin: 0 auto;">
+<img src="img/sunset2.svg" style="display:block; margin: 0 auto;">
+<img src="img/seventies_aint_done_yet.svg" style="display:block; margin: 0 auto;">
+<img src="img/cobra.svg" style="display:block; margin: 0 auto;">
+<img src="img/electronic_night.svg" style="display:block; margin: 0 auto;">
+
 
