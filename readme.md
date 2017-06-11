@@ -8,3 +8,14 @@ qplot(x=seq_along(cobra()), y='') + geom_tile(fill=cobra())
 qplot(x=seq_along(electronic_night()), y='') + geom_tile(fill=electronic_night())
 ```
 
+
+<img src="img/198r_1.png" style="display:block; margin: 0 auto;">
+<img src="img/Destination_R.png" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+<img src="" style="display:block; margin: 0 auto;">
+
