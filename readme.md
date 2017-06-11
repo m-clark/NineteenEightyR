@@ -8,11 +8,12 @@ R with its collar flipped, or the movie Drive if it was all about R programming,
   R with its hair all done up with Aquanet.
 
 
+<img src="img/198R_1.png" style="display:block; margin: 0 auto;">
+<img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=400px>
+
 
 A sampling of the palettes.
 
-<img src="img/198R_1.png" style="display:block; margin: 0 auto;">
-<img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=400px>
 <img src="img/sonny.png" style="display:block; margin: 0 auto;">
 <img src="img/malibu.png" style="display:block; margin: 0 auto;">
 <img src="img/miami1.png" style="display:block; margin: 0 auto;">
