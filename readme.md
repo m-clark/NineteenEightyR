@@ -1,6 +1,6 @@
 # 198R 
 
-<img src="man/img/lh_hex.png" align="right" width = 5%/>
+<img src="man/img/hex.png" align="right" width = 5%/>
 
 R with its collar flipped, or the movie Drive if it was all about R programming,
 writing R code on a beach in Miami as the sun sets, R wearing sunglasses at
