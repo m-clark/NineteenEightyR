@@ -22,7 +22,7 @@ Installation
 The development version then install directly from GitHub: 
 ``` r 
 # install.packages("devtools") 
-devtools::install_github("m-clark/NineteenEightyR") 
+devtools::install_github("m-clark/NineteenEightyR")
 ```
 
 A sampling of the
