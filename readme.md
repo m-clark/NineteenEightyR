@@ -17,6 +17,14 @@ Aquanet…
 <img src="man/figures/198R_1.png" style="display:block; margin: 0 auto;">
 <img src="man/figures/Destination_R.png" style="display:block; margin: 0 auto;" height=400px>
 
+Installation 
+------------ 
+The development version then install directly from GitHub: 
+``` r 
+# install.packages("devtools") 
+devtools::install_github("m-clark/visibly") 
+```
+
 A sampling of the
 palettes.
 
