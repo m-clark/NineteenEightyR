@@ -2,7 +2,7 @@ Package: NineteenEightyR
 Type: Package
 Title: 198R
 Version: 0.1.0
-Author: John Hughes
+Authors@R: person("John", "Hughes", role = c("aut", "cre"), email = "breakfast@club.com")
 Maintainer: Bueller... Bueller... Ferris...  Anyone?! <sonny@crockett.net>
 Description: R with its collar flipped, or the movie Drive if it was all about R programming, 
   writing R code on a beach in Miami as the sun sets, R wearing sunglasses at night, 
@@ -17,11 +17,11 @@ LazyData: true
 RoxygenNote: 6.0.1
 Depends: R (>= 3.3)
 Imports:
-    scales,
-    colourlovers
-Suggests: knitr,
-    rmarkdown,
-    png,
+    scales
+Suggests:
+    colourlovers,
     ggplot2,
+    knitr,
+    png,
     testthat
 VignetteBuilder: knitr

@@ -1,3 +1,5 @@
+# 80s based ascii art
+
 .onAttach <- function(libname, pkgname) {
   piclist = list(
     "

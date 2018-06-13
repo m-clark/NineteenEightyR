@@ -5,3 +5,4 @@
 inst/doc
 *.Rproj*
 .DS_Store
+Rplots.pdf

@@ -1,12 +1,12 @@
 ---
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
 ---
 
 <!-- # <span style="color:#FF6EB4; font-family: 'Brush Script MT'">198R</span>  -->
 
-<img src="img/hex_2.png" align="right" width = 25%/>
+<img src="man/figures/hex_2.png" align="right" width = 25%/>
 
 <br>
 
@@ -20,25 +20,40 @@ before taking a ride in a badass helicopter, R with its hair all done up with
 Aquanet...
 
 
-<img src="img/198R_1.png" style="display:block; margin: 0 auto;">
-<img src="img/Destination_R.png" style="display:block; margin: 0 auto;" height=400px>
+<img src="man/figures/198R_1.png" style="display:block; margin: 0 auto;">
+<img src="man/figures/Destination_R.png" style="display:block; margin: 0 auto;" height=400px>
 
 
 A sampling of the palettes.
 
-<img src="img/sonny.png" style="display:block; margin: 0 auto;">
 
-<img src="img/malibu.png" style="display:block; margin: 0 auto;">
+## Sonny
 
-<img src="img/miami1.png" style="display:block; margin: 0 auto;">
+<img src="man/figures/sonny.png" style="display:block; margin: 0 auto;">
 
-<img src="img/sunset2.png" style="display:block; margin: 0 auto;">
 
-<img src="img/seventies_aint_done_yet.png" style="display:block; margin: 0 auto;">
+## Malibu
 
-<img src="img/cobra.png" style="display:block; margin: 0 auto;">
+<img src="man/figures/malibu.png" style="display:block; margin: 0 auto;">
 
-<img src="img/electronic_night.png" style="display:block; margin: 0 auto;">
+## Miami
+
+<img src="man/figures/miami1.png" style="display:block; margin: 0 auto;">
+
+## Sunset
+
+<img src="man/figures/sunset2.png" style="display:block; margin: 0 auto;">
+
+## 70s ain't done yet
+
+<img src="man/figures/seventies_aint_done_yet.png" style="display:block; margin: 0 auto;">
+
+## Cobra
+
+<img src="man/figures/cobra.png" style="display:block; margin: 0 auto;">
+
+## Electronic night
+<img src="man/figures/electronic_night.png" style="display:block; margin: 0 auto;">
 
 
 

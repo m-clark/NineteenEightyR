@@ -15,49 +15,61 @@
 \alias{electronic_night}
 \title{Color palettes}
 \usage{
-sonny(n = 5)
+sonny(n = 5, alpha = 1)
 
-malibu(n = 5)
+malibu(n = 5, alpha = 1)
 
-hotpink(n = 5)
+hotpink(n = 5, alpha = 1)
 
-youngturqs(n = 12)
+youngturqs(n = 12, alpha = 1)
 
-sunset1(n = 5)
+sunset1(n = 5, alpha = 1)
 
-sunset2(n = 5)
+sunset2(n = 5, alpha = 1)
 
-sunset3(n = 5)
+sunset3(n = 5, alpha = 1)
 
-miami1(n = 5)
+miami1(n = 5, alpha = 1)
 
-miami2(n = 5)
+miami2(n = 5, alpha = 1)
 
-seventies_aint_done_yet(n = 5)
+seventies_aint_done_yet(n = 5, alpha = 1)
 
-cobra(n = 6)
+cobra(n = 6, alpha = 1)
 
-electronic_night(n = 5)
+electronic_night(n = 5, alpha = 1)
 }
 \arguments{
 \item{n}{The number of colors to return. The default is the length of the palette.}
+
+\item{alpha}{Transparency to be used in \link[scales]{col2hcl}.}
 }
 \value{
-A character vector of hex values for colors.  By default it will show the entire palette, otherwise the first 'n' or, it will repeat the palette to reach 'n' length.
+A character vector of hex values for colors.  By default it will show
+  the entire palette, otherwise the first 'n' or, it will repeat the palette
+  to reach 'n' length.
 }
 \description{
 Color palettes from another time and place.
 }
 \details{
-This function returns the hex values of various colors.
+The functions returns the hex values of various colors inspired by
+  Sonny Crockett, Malibu, Miami, the movie Cobra, and more.  Requires the
+  scales package. Several are original from the colourlovers site via the
+  package of the same name.
 }
 \examples{
 library(NineteenEightyR); library(ggplot2)
-qplot(x=seq_along(sonny()), y='') + geom_tile(fill=sonny())
-qplot(x=seq_along(malibu()), y='') + geom_tile(fill=malibu())
-qplot(x=seq_along(seventies_aint_done_yet()), y='') + geom_tile(fill=seventies_aint_done_yet())
-qplot(x=seq_along(youngturqs()), y='') + geom_tile(fill=youngturqs())
-qplot(x=seq_along(cobra()), y='') + geom_tile(fill=cobra())
+qplot(x=seq_along(sonny()), y='') + 
+  geom_tile(fill=sonny())
+qplot(x=seq_along(malibu()), y='') + 
+  geom_tile(fill=malibu())
+qplot(x=seq_along(seventies_aint_done_yet()), y='') + 
+  geom_tile(fill=seventies_aint_done_yet())
+qplot(x=seq_along(youngturqs()), y='') + 
+  geom_tile(fill=youngturqs())
+qplot(x=seq_along(cobra()), y='') + 
+  geom_tile(fill=cobra())
 }
 \seealso{
 \code{\link[grDevices]{colors}}
