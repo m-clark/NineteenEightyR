@@ -1,7 +1,6 @@
 ---
 output:
-  md_document:
-    variant: gfm
+  github_document
 ---
 
 <!-- # <span style="color:#FF6EB4; font-family: 'Brush Script MT'">198R</span>  -->
@@ -25,42 +24,14 @@ Aquanet...
 
 ## Installation 
 
-The development version then install directly from GitHub: 
+For the development version, install directly from GitHub: 
+
 ```{r, eval=FALSE} 
-# install.packages("devtools") 
-devtools::install_github("m-clark/NineteenEightyR") 
+# install.packages("remotes") 
+remotes::install_github("m-clark/NineteenEightyR") 
 ``` 
 
-A sampling of the palettes.
+## Palettes
 
-
-## Sonny
-
-<img src="man/figures/sonny.png" style="display:block; margin: 0 auto;">
-
-
-## Malibu
-
-<img src="man/figures/malibu.png" style="display:block; margin: 0 auto;">
-
-## Miami
-
-<img src="man/figures/miami1.png" style="display:block; margin: 0 auto;">
-
-## Sunset
-
-<img src="man/figures/sunset2.png" style="display:block; margin: 0 auto;">
-
-## 70s ain't done yet
-
-<img src="man/figures/seventies_aint_done_yet.png" style="display:block; margin: 0 auto;">
-
-## Cobra
-
-<img src="man/figures/cobra.png" style="display:block; margin: 0 auto;">
-
-## Electronic night
-<img src="man/figures/electronic_night.png" style="display:block; margin: 0 auto;">
-
-
+<img src="man/figures/all_palettes.png" style="display:block; margin: 0 auto;">
 

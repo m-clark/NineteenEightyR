@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^.*Rplots.pdf
 ^.*\.Rmd
+^readme\.md$
